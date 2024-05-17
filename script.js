@@ -40,7 +40,7 @@ hamburger.addEventListener("click", () => {
 });
 
 const video = document.getElementById("video_back");
-const videoBackDuration = 7; 
+const videoBackDuration = 8; 
 video.addEventListener("timeupdate", function() {
   if (video.currentTime >= videoBackDuration) {
     video.currentTime=0;
